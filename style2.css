@@ -1,0 +1,257 @@
+body{
+    height: 150px;
+}
+  header,footer{
+      position:absolute;
+      background-color: #505d61;
+      width: 100%;
+      color: white;
+  }
+  
+  header{
+     left: 0;
+      top: 0;
+      height: 10%;
+      
+  }
+  .logo{
+      margin-top: 1.5%; 
+      font-size: 25px;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+      float: left;
+      color: #fff;
+      text-transform: uppercase;
+  }
+  
+  .menu{
+      float: right;
+      margin-top: 1.5%; 
+      padding: 0px 120px 32px;
+      
+    
+   
+  }
+  
+      .menu a{
+  
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 25%; /* Four links of equal widths */
+    text-align: center;
+          text-transform: uppercase;
+          position:relative;
+          }
+  .menu a:hover{
+              color: #c0c0c0;
+          }
+          .split {
+            height: 80%;
+            width: 50%;
+            position:absolute;
+            z-index: 1;
+            top: 10%;
+            overflow-x: hidden;
+            background-color:steelblue
+          }
+          
+          .left {
+            left: 0;
+            
+            margin-left: 0%;
+            margin-right: 0%;
+            width: 30%;
+        
+          }
+          
+          .right {
+            right: 0;
+          
+            margin-right: 0%;
+            width: 70%;
+          }
+          .centered {
+            position: absolute;
+            top: 50%;
+            left: 46%;
+           transform: translate(-45%, -50%);
+            text-align: center;
+          }
+          
+          .centered img {
+            width: 350px;
+          }
+          .about {
+            position: absolute;
+            top: 25%;
+            left: 45%;
+           transform: translate(-45%, -50%);
+            text-align: center;
+            width: 90%;
+            
+          }
+          .para{
+             left: 15;
+             text-align: justify;
+            
+          }
+          .personal{ 
+            position: absolute;
+            margin-top: 1%;
+            margin-left: 15;
+            width: 90%;
+            display:grid;
+            grid-gap: 15px;
+  border: 0px solid black;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+
+          }
+          .hobby
+          {
+            border: 1px solid black;
+            height:200px;
+            margin-top:0;
+            margin-bottom: 0;
+            background-color:#c0c0c0;
+          }
+          .hobby li{
+            display:list-item;
+            text-align: left;
+          }
+          .prio
+          {
+            border: 1px solid black;
+            background-color:#c0c0c0;
+            height:200px ;
+            margin-top:0;
+            margin-bottom: 0;
+            margin-left: 10%;
+          }
+          .prio li{
+            text-align: left;
+          }
+          .skill
+          {
+            border: 1px solid black;
+            height:200px ;
+            margin-top:0;
+            margin-bottom: 0;
+            background-color:#c0c0c0;
+          }
+          .skill li{
+            text-align: left;
+          }
+  
+    .mainn {
+              height: 80%;
+              width: 100%;
+              position:absolute;
+              z-index: 1;
+              top: 10%;
+              left: 0px;
+              background-color:steelblue
+            }
+            
+            .contactForm {
+              position:absolute;
+              height: 0px;
+              top: 0px;
+              left: 46%;
+             transform: translate(-35%, -50%);
+ }
+            .forms
+            {
+                border: 1px solid black;
+            margin-top:0;
+            margin-bottom: 0;
+            background-color:wheat;
+            margin-left: 25%;
+            margin-right: 25%;
+            height: 100%;
+          
+            }
+            input[type=text] {
+                border: 2px solid black;
+                border-radius: 4px;
+                width: 100%;
+                height:25px;
+                background-color: white;
+              }
+              input[type=email]{
+                border: 2px solid black;
+                border-radius: 4px;
+                width: 100%;
+                height:30px;
+                background-color: white;
+              }
+
+              textarea {
+                width: 200%;
+                height:150px;
+                padding: 12px 20px;
+                box-sizing: border-box;
+                border: 2px solid black;
+                border-radius: 4px;
+                background-color: #f8f8f8;
+                resize: 35;
+              }
+              input[type=Submit]{
+                width:60%;
+                height:40px;
+                border: 2px solid black;
+                background-color: #505d61;
+                font-size:18;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              }
+              .genders{
+                border: 2px solid black;
+                border-radius: 4px;
+                width: 100%;
+                height:30px;
+                background-color: white;
+    
+              }
+              input[type=tel]{
+                border: 2px solid black;
+                border-radius: 4px;
+                width: 100%;
+                height:30px;
+                background-color: white;
+              }
+              input[type=password]{
+                border: 2px solid black;
+                border-radius: 4px;
+                width: 100%;
+                height:30px;
+                background-color: white;
+              }
+  footer{
+      left: 0;
+      height: 10%;
+      bottom: 0 ;
+  }
+  footer h2{
+      position: absolute;
+      left: 45%;
+  }
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 1200px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 23%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   font-style: italic;
+  }
+
+  
+  
