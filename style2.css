@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,100&display=swap');
 *{
   margin:0;
   padding: 0;
@@ -8,62 +9,91 @@
       background-color:black ;
   }
   main{
-      width: 70%;
+      width: 65%;
       margin: auto;
       display: flex;
       justify-content: center;
       height: 80vh;
-      flex-direction: column;
-      background-color: white;
-      margin-top: 50px;
-      margin-bottom: 50px;
+      background-color: hsl(0, 0%, 95%);
+      margin-top: 5%;
+      padding: 5%;
   }
-  .container
-  {
-      display: flex;
-      width: 70%;
-      height: 70%;
-      padding: 10px;
-      margin: auto;
-      
-     
-  }
-  .container .first{
-      background-color: aqua;
-      padding: 2em;
-      width: 100%;
-      font-size: 15px;
-      color: white;
-  }
-  .container .second{
-      background-color: rgb(91, 107, 107);
-      padding: 2em;
-      width: 100%;
-      font-size: 15px;
-      font-family: Big Shoulders Display;
-      color: white;
-     
-  }
-  .container .second h3{
-      margin-top: 15px;
-  }
-  .container .thred{
-      background-color: rgb(147, 187, 73);
-      padding: 2em;
-      width: 100%;
-      font-size: 15px;
-      font-family: Lexend Deca;
-  }
-  .button{
-      background-color: black;
-      border-radius: 25px;
-          background-color: white;
-          padding: 8px;
-          margin-top: 55px;
-          text-align: center;
-          display: inline-block;
-          font-size: 16px;
-        
-          
-        }
-      
+  .first{
+    background-color: hsl(31, 77%, 52%) ;  
+    padding: 2em;
+  
+    color: white;
+    margin-left:90px;
+    width: 30%;
+    margin-top: 25px;
+    height:90%;
+}
+.second{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 40%;
+    font-size: 15px;
+    font-family: Big Shoulders Display;
+    color: white;
+    margin-top: 25px;
+    width: 30%;
+    height:90%;
+   
+} .second h3{
+    margin-top: 15px;
+}
+ .thred{
+    background-color:hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 40%;
+    margin-top: 25px;
+    font-size: 15px;
+    font-family: Lexend Deca;
+    margin-right:90px;
+    width: 30%;
+    height:90%;
+  
+}
+  
+.button{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 25px;
+        background-color: white;
+        padding: 8px;
+        margin-top: 80px;
+        text-align: center;
+        display: inline-block;
+        font-size: 10px;  
+        margin:10px;
+        width: 80%;
+      }
+      .thred .button{
+        margin-top: 45px;
+      }
+      .first .button{
+        margin-top: 54px;
+      }
+      .second .button{
+        margin-top: 54px;
+      }
+    p{
+        color:hsla(0, 0%, 100%, 0.75);
+        line-height: 12px;
+        word-spacing: 4px;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+    }
+    h3{
+       color: hsl(0, 0%, 95%);
+       margin-top:25px;
+       margin-bottom: 20px;
+      font-family: Poppins;
+    }
+    .second h3{
+            color: hsl(0, 0%, 95%);
+            margin-top:25px;
+            margin-bottom: 24px;
+    }
+   .img{
+       width: 50px;
+   }
